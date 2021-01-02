@@ -11,14 +11,14 @@ onload = function() {
 
     const options = {
         edges: {
-            labelHighlightBold: true,
+            labelHighlightBold : true,
             font: {
-                size: 20
+                size: 20,
             }
         },
-        nodes: {
-            font: '12px arial red',
-            scaling: {
+        nodes : {
+            font : '12px arial red',
+            scaling : {
                 label: true
             },
             shape: 'icon',
@@ -27,8 +27,8 @@ onload = function() {
                 code: '\uf015',
                 size: 40,
                 color: '#991133',
-            }
-        }
+            },
+        },
     };
 
     const network = new vis.Network(container);

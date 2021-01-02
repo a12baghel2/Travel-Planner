@@ -14,10 +14,29 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="container"></div>
+    <nav class="navbar navbar-light" style="font-size: 25px; font-family: sans-serif; background-color: whitesmoke">
+        Least Time Travel Path Project
+    </nav>
+    <div class="container">
+        <div class="mynetwork"></div>
+        <div class="container2">
+            <span id="temptext2" style="width: 100%; text-align: center; font-size: x-large">
+            </span>
+            <span id="temptext" style="width: 100%; text-align: center; font-size: x-large;">
+                Red link represents bus tevel time : <i class="fa fa-bus" aria-hidden="true" style="color: orange"></i>
+                <br>
+                Green line represents flight travel time : <i class="fa fa-plane" aria-hidden="true" style="color: green"></i>
+                <br>
+                Click on solve to get solution !!
+            </span>
+            <div id="mynetwork2" style="display: none;"></div>
+        </div>
+    </div>
     <div>
         <br>
         <button type="button" class="btn btn-danger" id="generate-graph">Get New Problem</button>
+        <br>
+        <button type="button" class="btn btn-success" id="solve">Solve</button>
     </div>
 </body>
 </html>
